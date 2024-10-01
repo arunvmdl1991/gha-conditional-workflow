@@ -8,7 +8,7 @@ jobs:
     # continue-on-error: true
     strategy:
       matrix: 
-        node-version: [12, 13]
+        node-version: [12, 13, 14]
         os: [windows-latest, ubuntu-latest]
     
     runs-on: ${{ matrix.os }}
